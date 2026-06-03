@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artwork Guide | Design Requirements | Chamguan Patch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .format-badge { background: #000; color: #fff; padding: 6px 16px; font-size: 10px; font-weight: 800; border-radius: 4px; display: inline-block; transition: all 0.3s ease; }
+        .format-badge:hover { background: #333; transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center text-[10px] font-black uppercase tracking-widest">
+            <a href="index.html" class="text-xl font-extrabold tracking-tighter italic text-black">CHAMGUAN<span class="text-gray-400 not-italic">PATCH</span></a>
+            <div class="hidden lg:flex space-x-8 items-center">
+                <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+                <a href="backing-options.html" class="hover:text-gray-400 transition">Backing</a>
+                <a href="border-options.html" class="hover:text-gray-400 transition">Borders</a>
+                <a href="artwork-guide.html" class="text-black underline underline-offset-8 decoration-2 decoration-black">Artwork Guide</a>
+                <a href="https://wa.me/8615876936035" class="bg-black text-white px-6 py-3">Get Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="py-24 bg-gray-50 text-center border-b border-gray-100">
+        <h1 class="text-4xl lg:text-7xl font-black uppercase tracking-tighter italic mb-4">Artwork Guide</h1>
+        <p class="text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">Ensure 100% Precision For Your Bulk Orders</p>
+    </header>
+
+    <section class="py-24 container mx-auto px-6 max-w-6xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div class="border-2 border-black p-12">
+                <h3 class="text-2xl font-black uppercase mb-8 italic">Preferred Formats</h3>
+                <p class="text-sm text-gray-500 mb-10 leading-loose">Vector files are mandatory for high-precision digitizing. Click a format to send your file via WhatsApp for a free audit:</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://wa.me/8615876936035?text=I%20have%20an%20AI%20file%20to%20audit" class="format-badge">.AI (Illustrator)</a>
+                    <a href="https://wa.me/8615876936035?text=I%20have%20a%20PDF%20file%20to%20audit" class="format-badge">.PDF (Vector)</a>
+                    <a href="https://wa.me/8615876936035?text=I%20have%20an%20EPS%20file%20to%20audit" class="format-badge">.EPS</a>
+                    <a href="https://wa.me/8615876936035?text=I%20have%20a%20PNG%20file%20to%20audit" class="format-badge">.PNG</a>
+                </div>
+            </div>
+            <div class="bg-gray-50 p-12">
+                <h3 class="text-2xl font-black uppercase mb-8 italic">Technical Limits</h3>
+                <ul class="space-y-6 text-[10px] font-black uppercase tracking-widest text-gray-500">
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Min. Text Height</span> <span class="text-black">4mm / 0.15"</span></li>
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Min. Line Weight</span> <span class="text-black">1pt / 0.35mm</span></li>
+                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Pantone Matching</span> <span class="text-black">Solid Coated (C)</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow Visualization -->
+    <section class="py-24 container mx-auto px-6 border-t border-gray-100">
+        <h2 class="text-2xl font-black uppercase tracking-tighter italic text-center mb-16 underline decoration-4 decoration-gray-100 underline-offset-8">Production Workflow</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">1. Your Artwork</div><h5 class="font-bold text-xs uppercase">Design Submission</h5></div>
+            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">2. Digital Proof</div><h5 class="font-bold text-xs uppercase">Needle Path Guide</h5></div>
+            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">3. Final Patch</div><h5 class="font-bold text-xs uppercase">Bulk Production</h5></div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-gray-100 text-center font-bold">
+        <p class="text-[10px] text-gray-300 uppercase tracking-widest italic">© 2026 Chamguan Patch. Premium Manufacturer.</p>
+    </footer>
+</body>
+</html>
