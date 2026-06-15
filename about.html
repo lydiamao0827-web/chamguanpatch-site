@@ -63,8 +63,8 @@
     </div>
 
     <!-- Factory Premium Hero -->
-    <header class="py-28 lg:py-40 bg-[#0c0d0a] text-white overflow-hidden relative">
-        <div class="absolute inset-0 bg-cover bg-center opacity-25" style="background-image: url('assets/factory-machines.jpg');"></div>
+    <header class="py-28 lg:py-40 bg-[#0c0d0a] text-white overflow-hidden relative border-b border-gray-100">
+        <div class="absolute inset-0 bg-cover bg-center opacity-25" style="background-image: url('assets/factory-hero.jpg');"></div>
         <div class="container mx-auto px-6 relative z-10 text-center">
             <span class="text-[10px] font-bold uppercase tracking-[0.4em] text-amber-500 mb-6 block">Direct B2B Manufacturing Backbone</span>
             <h1 class="text-5xl lg:text-8xl font-black tracking-tighter leading-none mb-8 uppercase italic">23 Years of Industrial Craftsmanship</h1>
@@ -75,61 +75,92 @@
         </div>
     </header>
 
-    <!-- Industrial Credibility & Certifications -->
+    <!-- Industrial Credibility & 4-Grid Showcase -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-                <div>
-                    <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-8 border-l-8 border-black pl-8 leading-none tracking-tighter">Beyond Simple Embroidery</h2>
-                    <p class="text-gray-500 leading-relaxed mb-10 text-lg font-light">As a premier B2B manufacturer for bulk orders, we understand that apparel brands and uniform suppliers require more than just a patch—they require a reliable supply chain. Our factory is ISO9001:2015 audited, ensuring that every design, from 50 to 500,000 pieces, meets strict international quality benchmarks.</p>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                        <div>
-                            <h5 class="font-black uppercase text-sm mb-3">Japan-Made Precision</h5>
-                            <p class="text-xs text-gray-400">Our floor is equipped with 50+ multi-head Tajima embroidery machines, ensuring absolute stitch consistency across massive bulk runs.</p>
-                        </div>
-                        <div>
-                            <h5 class="font-black uppercase text-sm mb-3">OEKO-TEX Compliance</h5>
-                            <p class="text-xs text-gray-400">We strictly utilize high-tenacity polyester threads that are certified safe for garment use and infants' apparel.</p>
-                        </div>
+            <div class="flex flex-col lg:flex-row justify-between items-end mb-20 gap-8">
+                <div class="max-w-2xl">
+                    <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-6 border-l-8 border-black pl-8 leading-none tracking-tighter">Production Powerhouse</h2>
+                    <p class="text-gray-500 text-lg font-light leading-relaxed">Unlike trading agencies, we own and manage our complete production chain. This means 100% transparent pricing, strict color matching, and absolute control over bulk delivery schedules for global brands.</p>
+                </div>
+                <div class="bg-gray-100 px-6 py-4 border border-gray-200">
+                    <span class="block text-[10px] font-bold uppercase tracking-widest text-neutral-400">Quality Standard</span>
+                    <span class="text-xs font-bold text-black uppercase">ISO9001:2015 Audited Facility</span>
+                </div>
+            </div>
+
+            <!-- Digital Factory Tour 4-Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
+                <!-- Card 1: Workshop -->
+                <div class="bg-white border border-gray-100 overflow-hidden group">
+                    <div class="aspect-video bg-gray-100 overflow-hidden relative">
+                        <img src="assets/factory-hero.jpg" alt="Chamguan embroidery workshop with Tajima machines" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h5 class="font-bold text-xs uppercase tracking-widest mb-2 text-black">01 / Massive Capacity</h5>
+                        <p class="text-[11px] text-gray-400 leading-relaxed">50+ Japan-imported Tajima multi-head machines running 24/7 for high-volume B2B fulfillment.</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
-                    <img src="assets/factory-machines.jpg" class="aspect-square object-cover border border-gray-100" alt="Japan-imported Tajima embroidery machines">
-                    <img src="assets/factory-qc.jpg" class="aspect-square object-cover border border-gray-100" alt="B2B quality control and inspection">
+
+                <!-- Card 2: Digitizing -->
+                <div class="bg-white border border-gray-100 overflow-hidden group">
+                    <div class="aspect-video bg-gray-100 overflow-hidden relative">
+                        <img src="assets/factory-samples.jpg" alt="Design center and custom patch gallery" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h5 class="font-bold text-xs uppercase tracking-widest mb-2 text-black">02 / Design Excellence</h5>
+                        <p class="text-[11px] text-gray-400 leading-relaxed">A specialized archive of over 50,000 custom designs, showcasing our deep experience in branding.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Quality Control -->
+                <div class="bg-white border border-gray-100 overflow-hidden group">
+                    <div class="aspect-video bg-gray-100 overflow-hidden relative">
+                        <img src="assets/factory-qc.jpg" alt="100% manual quality inspection" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h5 class="font-bold text-xs uppercase tracking-widest mb-2 text-black">03 / 100% Quality Sorting</h5>
+                        <p class="text-[11px] text-gray-400 leading-relaxed">Every bulk shipment undergoes 5-point manual QC to verify border integrity and thread density.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Technical Backing -->
+                <div class="bg-white border border-gray-100 overflow-hidden group">
+                    <div class="aspect-video bg-gray-100 overflow-hidden relative">
+                        <img src="assets/factory-merrow.jpg" alt="Industrial patch merrowing and bordering" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="p-6">
+                        <h5 class="font-bold text-xs uppercase tracking-widest mb-2 text-black">04 / Boundary Engineering</h5>
+                        <p class="text-[11px] text-gray-400 leading-relaxed">Specialized overlocking and merrowing machines ensure a reinforced, non-fray edge for every premium emblem.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Global Export Capability -->
+    <!-- Technical Narrative & Compliance -->
     <section class="py-24 bg-gray-50 border-y border-gray-100">
         <div class="container mx-auto px-6 text-center max-w-5xl">
-            <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-10">Serving Global Apparel Giants</h2>
+            <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-10">Compliance & Global Standards</h2>
             <div class="prose prose-lg text-gray-500 font-light leading-relaxed mx-auto space-y-8">
-                <p>For over 23 years, Chamguan Patch has been the preferred manufacturing partner for international corporations, military uniform contractors, and premier streetwear labels. Our expertise extends beyond manufacturing into global logistics and compliance. We specialize in bulk DDP/FOB exports, ensuring that your procurement department receives high-quality emblems on schedule, anywhere in the world.</p>
-                <p>Our facility operates 24/7 to maintain a monthly capacity of over 1.2 million patches. This scale allows us to absorb setup costs and provide aggressive tiered pricing that trading companies and brokers cannot match. When you partner with us, you are dealing directly with the source.</p>
+                <p>For over 23 years, Chamguan Patch has been the preferred manufacturing partner for international corporations, military uniform contractors, and premier streetwear labels. We strictly utilize OEKO-TEX Standard 100 certified threads, ensuring our products are safe for infants' apparel and global retail markets.</p>
+                <div class="flex flex-wrap justify-center gap-16 items-center opacity-60 mt-12">
+                    <div class="text-sm font-bold uppercase tracking-widest"><i class="fa-solid fa-medal mr-2 text-amber-500"></i> ISO 9001:2015</div>
+                    <div class="text-sm font-bold uppercase tracking-widest"><i class="fa-solid fa-leaf mr-2 text-green-500"></i> OEKO-TEX 100</div>
+                    <div class="text-sm font-bold uppercase tracking-widest"><i class="fa-solid fa-shield-circle-check mr-2 text-blue-500"></i> SGS CERTIFIED</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Technical FAQ for Sourcing Teams -->
+    <!-- B2B FAQ -->
     <section class="py-24 bg-white">
         <div class="container mx-auto px-6 max-w-4xl">
             <h2 class="text-3xl font-black uppercase italic text-center mb-20">Wholesale Manufacturing FAQ</h2>
             <div class="space-y-12">
-                <div class="border-b pb-8">
-                    <h5 class="font-black uppercase text-sm mb-4">Q: How does Chamguan ensure color consistency for large clothing brands?</h5>
-                    <p class="text-xs text-gray-500 leading-relaxed">A: We cross-reference every design against the Pantone Solid Coated (PMS) system. Our warehouse stocks over 300 thread shades, and our sales engineers provide digital thread-map proofs for approval before mass production begins.</p>
-                </div>
-                <div class="border-b pb-8">
-                    <h5 class="font-black uppercase text-sm mb-4">Q: What are your factory's standard lead times for bulk export orders?</h5>
-                    <p class="text-xs text-gray-500 leading-relaxed">A: For standard bulk orders of 1,000 to 5,000 pieces, our factory fulfillment time is 7-10 working days. For larger container-level orders, we provide a staggered production schedule to match your brand's logistics pipeline.</p>
-                </div>
-                <div class="pb-8">
-                    <h5 class="font-black uppercase text-sm mb-4">Q: Can you provide customized export packing and labeling for our warehouse?</h5>
-                    <p class="text-xs text-gray-500 leading-relaxed">A: Yes. We support custom SKU labeling, barcodes, and specialized inner-bag counts to ensure seamless integration into your brand's distribution center upon arrival.</p>
-                </div>
+                <div class="border-b pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: How do you handle exact thread color matching?</h5><p class="text-xs text-gray-500 leading-relaxed">A: We cross-reference every design against the Pantone Solid Coated (PMS) system. Our warehouse stocks over 300 thread shades for absolute brand consistency.</p></div>
+                <div class="border-b pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: What is the typical lead time for bulk export orders?</h5><p class="text-xs text-gray-500 leading-relaxed">A: Standard bulk orders are fulfilled within 7-10 working days. We specialize in coordinated logistics to match your brand's global distribution deadlines.</p></div>
+                <div class="pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: Are your materials compliant with safety standards for infants?</h5><p class="text-xs text-gray-500 leading-relaxed">A: Yes. All yarns and adhesives pass strict OEKO-TEX Class I certification, guaranteeing they are free from harmful chemicals and safe for skin contact.</p></div>
             </div>
         </div>
     </section>
@@ -146,7 +177,7 @@
     </footer>
 
     <div class="py-12 bg-[#0c0d0a] text-center border-t border-neutral-900">
-        <p class="text-[9px] text-neutral-600 uppercase font-black tracking-widest">© 2026 Chamguan Patch. Direct B2B Manufacturer. 23 Years Excellence.</p>
+        <p class="text-[9px] text-neutral-600 uppercase font-black tracking-widest italic">© 2026 Chamguan Patch. Direct B2B Manufacturer. 23 Years Excellence.</p>
     </div>
 
     <!-- WhatsApp Float -->
