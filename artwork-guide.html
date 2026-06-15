@@ -3,71 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artwork Guide | Design Requirements | Chamguan Patch</title>
+    <title>Technical Artwork & Digitizing Guide for Custom Patches | B2B Standards | Chamguan Patch</title>
+    <meta name="description" content="Professional B2B guide for custom patch artwork submission. Specifications for vector files (AI, PDF, EPS), thread color matching, and free digitizing proofs. 23 years factory expertise.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .format-badge { background: #000; color: #fff; padding: 6px 16px; font-size: 10px; font-weight: 800; border-radius: 4px; display: inline-block; transition: all 0.3s ease; }
-        .format-badge:hover { background: #333; transform: scale(1.05); }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; background: #25d366; color: white; padding: 14px 28px; border-radius: 50px; z-index: 1000; box-shadow: 0 10px 25px rgba(37,211,102,0.3); font-weight: bold; transition: all 0.3s ease; }
+        .whatsapp-float:hover { transform: scale(1.05); background: #128c7e; }
     </style>
+    <link rel="canonical" href="https://www.chamguanpatch.com/artwork-guide.html">
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 selection:bg-black selection:text-white">
 
-    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-6 py-4">
+    <!-- Unified Navigation Header (V4.0) -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 px-6 py-4">
         <div class="container mx-auto flex justify-between items-center text-[10px] font-black uppercase tracking-widest">
             <a href="index.html" class="text-xl font-extrabold tracking-tighter italic text-black">CHAMGUAN<span class="text-gray-400 not-italic">PATCH</span></a>
+            
             <div class="hidden lg:flex space-x-8 items-center">
                 <a href="index.html" class="hover:text-gray-400 transition">Home</a>
-                <a href="backing-options.html" class="hover:text-gray-400 transition">Backing</a>
-                <a href="border-options.html" class="hover:text-gray-400 transition">Borders</a>
+                
+                <!-- Custom Patches Dropdown -->
+                <div class="group relative">
+                    <button class="hover:text-gray-400 transition flex items-center">Custom Patches <i class="fa-solid fa-chevron-down ml-1 text-[8px]"></i></button>
+                    <div class="absolute hidden group-hover:block bg-white border border-gray-100 p-4 w-72 shadow-2xl -left-4 top-full">
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px] font-bold">Custom Embroidered Patches</a>
+                        <a href="products/woven-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Custom Woven Patches</a>
+                        <a href="products/chenille-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Custom Chenille Patches</a>
+                        <a href="tactical-morale-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Tactical & Morale Patches</a>
+                        <a href="motorcycle-club-patches.html" class="block py-2 hover:text-black transition text-[10px]">Motorcycle Biker Patches</a>
+                    </div>
+                </div>
+
+                <!-- Applications Dropdown -->
+                <div class="group relative">
+                    <button class="hover:text-gray-400 transition flex items-center">Applications <i class="fa-solid fa-chevron-down ml-1 text-[8px]"></i></button>
+                    <div class="absolute hidden group-hover:block bg-white border border-gray-100 p-4 w-64 shadow-2xl -left-4 top-full">
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Apparel Brands</a>
+                        <a href="tactical-morale-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Tactical Gear</a>
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Uniforms & Workwear</a>
+                        <a href="products/embroidery-keychains.html" class="block py-2 hover:text-black transition text-[10px]">For Promotional Events</a>
+                    </div>
+                </div>
+
+                <a href="backing-options.html" class="hover:text-gray-400 transition">Backing & Borders</a>
+                <a href="about.html" class="hover:text-gray-400 transition">Factory</a>
                 <a href="artwork-guide.html" class="text-black underline underline-offset-8 decoration-2 decoration-black">Artwork Guide</a>
-                <a href="https://wa.me/8615876936035" class="bg-black text-white px-6 py-3">Get Quote</a>
+                <a href="https://wa.me/8615876936035" class="bg-black text-white px-6 py-3 hover:bg-gray-800 transition">Get Bulk Quote</a>
             </div>
         </div>
     </nav>
 
+    <!-- Breadcrumbs -->
+    <div class="bg-gray-50 py-4 px-6 border-b border-gray-100">
+        <div class="container mx-auto text-[9px] font-bold uppercase tracking-widest text-gray-400">
+            <a href="index.html" class="hover:text-black">Home</a> <span class="mx-2">/</span> <span class="text-black">Technical Artwork Guide</span>
+        </div>
+    </div>
+
+    <!-- Page Header -->
     <header class="py-24 bg-gray-50 text-center border-b border-gray-100">
-        <h1 class="text-4xl lg:text-7xl font-black uppercase tracking-tighter italic mb-4">Artwork Guide</h1>
-        <p class="text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">Ensure 100% Precision For Your Bulk Orders</p>
+        <div class="container mx-auto px-6">
+            <span class="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 mb-6 block">Industrial Digitizing Standards</span>
+            <h1 class="text-4xl lg:text-7xl font-black tracking-tighter leading-none mb-8 uppercase italic">Artwork & Submission Guide</h1>
+            <p class="text-lg text-gray-500 font-light max-w-3xl mx-auto italic leading-relaxed">Successful bulk manufacturing begins with high-quality digital input. Our factory engineering team provides free technical artwork audits to ensure your brand's vector assets are optimized for high-density industrial embroidery and weaving.</p>
+        </div>
     </header>
 
-    <section class="py-24 container mx-auto px-6 max-w-6xl">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
-            <div class="border-2 border-black p-12">
-                <h3 class="text-2xl font-black uppercase mb-8 italic">Preferred Formats</h3>
-                <p class="text-sm text-gray-500 mb-10 leading-loose">Vector files are mandatory for high-precision digitizing. Click a format to send your file via WhatsApp for a free audit:</p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="https://wa.me/8615876936035?text=I%20have%20an%20AI%20file%20to%20audit" class="format-badge">.AI (Illustrator)</a>
-                    <a href="https://wa.me/8615876936035?text=I%20have%20a%20PDF%20file%20to%20audit" class="format-badge">.PDF (Vector)</a>
-                    <a href="https://wa.me/8615876936035?text=I%20have%20an%20EPS%20file%20to%20audit" class="format-badge">.EPS</a>
-                    <a href="https://wa.me/8615876936035?text=I%20have%20a%20PNG%20file%20to%20audit" class="format-badge">.PNG</a>
+    <!-- Deep Technical Narrative -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-12 border-l-8 border-black pl-8">Optimizing Design for Global Manufacturing</h2>
+            <div class="prose prose-lg text-gray-500 font-light leading-relaxed space-y-8">
+                <p>For B2B procurement teams and fashion designers, the transition from a digital graphic to a physical textile emblem involves a process called "Digitizing." This is the mechanical mapping of needle paths and stitch-counts. At Chamguan Patch, our 23 years of experience has allowed us to develop a specialized engineering protocol that ensures every line weight, font size, and color gradient is perfectly translated into thread.</p>
+                
+                <p>We provide a comprehensive "Pre-Production Digital Proof" for every bulk order. This proof serves as your technical contract, specifying exact thread color codes (mapped to Pantone Solid Coated), backing selections, and border finishings. By following the industrial file standards listed below, you ensure a rapid turnaround and zero production deviations for your brand's apparel or tactical merchandise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical File Requirements Grid -->
+    <section class="py-24 bg-gray-50 border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                <!-- Vector Requirements -->
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-black uppercase italic tracking-tight"><i class="fa-solid fa-file-vector mr-4 text-amber-600"></i> Preferred Vector Standards</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">Vector files are essential for large-scale B2B manufacturing because they allow our engineers to scale designs without loss of resolution. We strictly utilize Adobe Illustrator (.AI) and high-resolution .PDF or .EPS formats.</p>
+                    <ul class="space-y-4 text-xs font-bold uppercase text-gray-500">
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Adobe Illustrator (.AI) - All Fonts Outlined</li>
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Vector PDF or Encapsulated PostScript (.EPS)</li>
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Resolution: 300 DPI or higher for embedded images</li>
+                    </ul>
+                </div>
+                <!-- Color & Text Requirements -->
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-black uppercase italic tracking-tight"><i class="fa-solid fa-palette mr-4 text-amber-600"></i> Industrial Color Calibration</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">To ensure global brand consistency, we do not rely on standard RGB/CMYK screen colors. We strictly cross-reference your artwork against our factory's physical thread library and the Pantone Solid Coated (PMS) system.</p>
+                    <ul class="space-y-4 text-xs font-bold uppercase text-gray-500">
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Specify Pantone (PMS) Solid Coated Numbers</li>
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Min. Font Height: 4mm for high-thread-count embroidery</li>
+                        <li><i class="fa-solid fa-circle-check text-green-500 mr-3"></i> Min. Line Weight: 1mm for standard embroidery</li>
+                    </ul>
                 </div>
             </div>
-            <div class="bg-gray-50 p-12">
-                <h3 class="text-2xl font-black uppercase mb-8 italic">Technical Limits</h3>
-                <ul class="space-y-6 text-[10px] font-black uppercase tracking-widest text-gray-500">
-                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Min. Text Height</span> <span class="text-black">4mm / 0.15"</span></li>
-                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Min. Line Weight</span> <span class="text-black">1pt / 0.35mm</span></li>
-                    <li class="flex justify-between border-b border-gray-200 pb-2"><span>Pantone Matching</span> <span class="text-black">Solid Coated (C)</span></li>
-                </ul>
+        </div>
+    </section>
+
+    <!-- Digitizing Process Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="text-3xl font-black uppercase italic mb-10">The Engineering Audit Process</h2>
+            <p class="text-gray-500 text-lg font-light leading-relaxed mb-16 italic">"We don't just print your design—we architect it with thread."</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
+                <div class="space-y-4">
+                    <div class="text-amber-600 font-black text-3xl">01</div>
+                    <h5 class="font-black uppercase text-sm">Path Mapping</h5>
+                    <p class="text-[11px] text-gray-400">Our designers calculate the most efficient needle path to minimize thread jumps and maximize visual smoothness.</p>
+                </div>
+                <div class="space-y-4 border-l border-gray-100 pl-8">
+                    <div class="text-amber-600 font-black text-3xl">02</div>
+                    <h5 class="font-black uppercase text-sm">Stitch Calibration</h5>
+                    <p class="text-[11px] text-gray-400">We adjust density for different base fabrics—lighter for beanies, denser for tactical twill—ensuring no warping occurs.</p>
+                </div>
+                <div class="space-y-4 border-l border-gray-100 pl-8">
+                    <div class="text-amber-600 font-black text-3xl">03</div>
+                    <h5 class="font-black uppercase text-sm">Final QC Review</h5>
+                    <p class="text-[11px] text-gray-400">A senior digitizer reviews the file before it hits the 50+ Japan-made Tajima machines on our production floor.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Workflow Visualization -->
-    <section class="py-24 container mx-auto px-6 border-t border-gray-100">
-        <h2 class="text-2xl font-black uppercase tracking-tighter italic text-center mb-16 underline decoration-4 decoration-gray-100 underline-offset-8">Production Workflow</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">1. Your Artwork</div><h5 class="font-bold text-xs uppercase">Design Submission</h5></div>
-            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">2. Digital Proof</div><h5 class="font-bold text-xs uppercase">Needle Path Guide</h5></div>
-            <div><div class="bg-gray-50 aspect-square flex items-center justify-center text-gray-300 italic mb-6 border">3. Final Patch</div><h5 class="font-bold text-xs uppercase">Bulk Production</h5></div>
+    <!-- Final CTA -->
+    <section class="py-24 bg-black text-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl lg:text-7xl font-black italic uppercase tracking-tighter mb-8 tracking-tighter">Submit Your Brand Assets For Review</h2>
+            <p class="text-gray-400 text-lg font-light max-w-2xl mx-auto mb-16 leading-relaxed italic">Talk directly with our technical team on WhatsApp for a free artwork audit. Bulk B2B only.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-8 items-center text-[10px] font-bold uppercase tracking-[0.2em]">
+                <a href="https://wa.me/8615876936035?text=Hello%2C%20I%20want%20a%20free%20technical%20artwork%20audit%20for%20my%20patch%20design." class="bg-amber-600 text-black px-14 py-6 font-black hover:bg-amber-500 transition-all shadow-2xl">Start WhatsApp Audit</a>
+                <a href="mailto:lydiamao0827@gmail.com" class="text-gray-400 hover:text-white transition-all underline underline-offset-8">Email Design File Directly</a>
+            </div>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-gray-100 text-center font-bold">
-        <p class="text-[10px] text-gray-300 uppercase tracking-widest italic">© 2026 Chamguan Patch. Premium Manufacturer.</p>
+    <footer class="py-12 bg-[#0c0d0a] text-center border-t border-neutral-900">
+        <p class="text-[9px] text-neutral-600 uppercase font-black tracking-widest italic">© 2026 Chamguan Patch. Premium B2B Manufacturer for Global Apparel Brands. Wholesale Only. 23 Years Experience.</p>
     </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/8615876936035?text=Hello%2C%20I%20have%20questions%20about%20my%20artwork%20standards." class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp mr-2 text-xl"></i> Free Artwork Audit
+    </a>
+
 </body>
 </html>

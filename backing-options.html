@@ -3,70 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patch Backing Options Guide | Chamguan Patch</title>
+    <title>Custom Patch Backing Options Technical Guide | B2B Sourcing | Chamguan Patch</title>
+    <meta name="description" content="Technical engineering guide to industrial patch backing options. Detailed specifications for Hook & Loop, Heat-Seal Iron-on, Adhesive, and Plain backings for bulk B2B orders. 23 years experience.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .grid-card { border: 1px solid #f3f4f6; transition: all 0.4s ease; background: #fff; }
-        .grid-card:hover { border-color: #000; transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.05); }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; background: #25d366; color: white; padding: 14px 28px; border-radius: 50px; z-index: 1000; box-shadow: 0 10px 25px rgba(37,211,102,0.3); font-weight: bold; transition: all 0.3s ease; }
+        .whatsapp-float:hover { transform: scale(1.05); background: #128c7e; }
+        .spec-table th { text-align: left; padding: 12px; background: #f9fafb; font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: #6b7280; border-bottom: 1px solid #f3f4f6; }
+        .spec-table td { padding: 12px; font-size: 13px; color: #111827; border-bottom: 1px solid #f3f4f6; }
     </style>
+    <link rel="canonical" href="https://www.chamguanpatch.com/backing-options.html">
 </head>
-<body class="bg-white text-gray-900">
+<body class="bg-white text-gray-900 selection:bg-black selection:text-white">
 
-    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-6 py-4">
+    <!-- Unified Navigation Header (V4.0) -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 px-6 py-4">
         <div class="container mx-auto flex justify-between items-center text-[10px] font-black uppercase tracking-widest">
             <a href="index.html" class="text-xl font-extrabold tracking-tighter italic text-black">CHAMGUAN<span class="text-gray-400 not-italic">PATCH</span></a>
+            
             <div class="hidden lg:flex space-x-8 items-center">
                 <a href="index.html" class="hover:text-gray-400 transition">Home</a>
-                <a href="backing-options.html" class="text-black underline underline-offset-8 decoration-2 decoration-black">Backing</a>
-                <a href="border-options.html" class="hover:text-gray-400 transition">Borders</a>
+                
+                <!-- Custom Patches Dropdown -->
+                <div class="group relative">
+                    <button class="hover:text-gray-400 transition flex items-center">Custom Patches <i class="fa-solid fa-chevron-down ml-1 text-[8px]"></i></button>
+                    <div class="absolute hidden group-hover:block bg-white border border-gray-100 p-4 w-72 shadow-2xl -left-4 top-full">
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Custom Embroidered Patches</a>
+                        <a href="products/woven-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Custom Woven Patches</a>
+                        <a href="products/chenille-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Custom Chenille Patches</a>
+                        <a href="tactical-morale-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">Tactical & Morale Patches</a>
+                        <a href="motorcycle-club-patches.html" class="block py-2 hover:text-black transition text-[10px]">Motorcycle Biker Patches</a>
+                    </div>
+                </div>
+
+                <!-- Applications Dropdown -->
+                <div class="group relative">
+                    <button class="hover:text-gray-400 transition flex items-center">Applications <i class="fa-solid fa-chevron-down ml-1 text-[8px]"></i></button>
+                    <div class="absolute hidden group-hover:block bg-white border border-gray-100 p-4 w-64 shadow-2xl -left-4 top-full">
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Apparel Brands</a>
+                        <a href="tactical-morale-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Tactical Gear</a>
+                        <a href="products/embroidery-patches.html" class="block py-2 hover:text-black transition border-b border-gray-50 text-[10px]">For Uniforms & Workwear</a>
+                        <a href="products/embroidery-keychains.html" class="block py-2 hover:text-black transition text-[10px]">For Promotional Events</a>
+                    </div>
+                </div>
+
+                <a href="backing-options.html" class="text-black underline underline-offset-8 decoration-2 decoration-black">Backing & Borders</a>
+                <a href="about.html" class="hover:text-gray-400 transition">Factory</a>
                 <a href="artwork-guide.html" class="hover:text-gray-400 transition">Artwork Guide</a>
-                <a href="https://wa.me/8615876936035" class="bg-black text-white px-6 py-3">Get Quote</a>
+                <a href="https://wa.me/8615876936035" class="bg-black text-white px-6 py-3 hover:bg-gray-800 transition">Get Bulk Quote</a>
             </div>
         </div>
     </nav>
 
-    <header class="py-20 bg-gray-50 text-center border-b border-gray-100">
-        <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400 mb-4 block">Industrial Grade Backing</span>
-        <h1 class="text-4xl lg:text-7xl font-black uppercase tracking-tighter italic text-black">Backing Options</h1>
+    <!-- Breadcrumbs -->
+    <div class="bg-gray-50 py-4 px-6 border-b border-gray-100">
+        <div class="container mx-auto text-[9px] font-bold uppercase tracking-widest text-gray-400">
+            <a href="index.html" class="hover:text-black">Home</a> <span class="mx-2">/</span> <span class="text-black">Technical Backing Guide</span>
+        </div>
+    </div>
+
+    <!-- Page Header -->
+    <header class="py-24 bg-gray-50 text-center border-b border-gray-100">
+        <div class="container mx-auto px-6">
+            <span class="text-[10px] font-bold uppercase tracking-[0.4em] text-gray-400 mb-6 block">Industrial Mounting Standards</span>
+            <h1 class="text-4xl lg:text-7xl font-black tracking-tighter leading-none mb-8 uppercase italic">Technical Backing Guide</h1>
+            <p class="text-lg text-gray-500 font-light max-w-3xl mx-auto italic leading-relaxed">Selecting the appropriate backing is fundamental to the long-term structural integrity and functional application of a custom emblem. Our 23 years of manufacturing expertise ensures that your brand identity remains permanently bonded to your garment or equipment.</p>
+        </div>
     </header>
 
-    <section class="py-24 container mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="grid-card p-6 text-center"><img src="assets/backing-iron-on.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Iron-on</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-hook and loop.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Hook & Loop</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-sew-on.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Sew-on (Plain)</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-3m.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">3M Adhesive</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-self-adhesive.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Self-Adhesive</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-plastic.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Plastic Backing</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-paper.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Paper Backing</h3></div>
-            <div class="grid-card p-6 text-center"><img src="assets/backing-pin.png" class="w-full aspect-square object-cover mb-4"><h3 class="font-black text-xs uppercase italic">Safety Pin</h3></div>
+    <!-- Deep Narrative Section (Expanding word count) -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <h2 class="text-3xl lg:text-5xl font-black uppercase italic mb-12 border-l-8 border-black pl-8">Engineering the Perfect Attachment</h2>
+            <div class="prose prose-lg text-gray-500 font-light leading-relaxed space-y-8">
+                <p>For B2B procurement teams and apparel manufacturers, the choice of patch backing is not merely an aesthetic decision—it is a chemical and structural requirement. The backing must match the base fabric's composition, the anticipated laundry cycle frequency, and the specific functional requirements of the end-user. Whether you are producing military uniforms that require modularity or high-end fashion garments that require a soft, natural drape, Chamguan Patch provides specialized industrial mounting solutions.</p>
+                
+                <p>Our facility utilizes computerized hot-press equipment and high-tenacity industrial threads to apply our backings. We audit every batch of adhesive to ensure constant melt-points and superior peel-strength. From traditional sew-on methods to modern magnetic and specialized heat-seals, we provide 8 distinct B2B options tailored for clothing brands, promotional agencies, and tactical equipment designers worldwide.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Comparison Table -->
-    <section class="py-24 bg-black text-white">
+    <!-- Backing Type Grid (1200 words building blocks) -->
+    <section class="py-24 bg-gray-50 border-y border-gray-100">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-black uppercase text-center mb-16 tracking-tighter italic">Comparison Guide</h2>
-            <div class="max-w-4xl mx-auto overflow-x-auto">
-                <table class="w-full text-left text-[10px] uppercase tracking-widest font-bold">
-                    <thead class="border-b border-gray-800 text-gray-500">
-                        <tr><th class="py-4 px-6">Type</th><th class="py-4 px-6">Durability</th><th class="py-4 px-6">Best For</th></tr>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Hook & Loop -->
+                <div class="space-y-6">
+                    <div class="aspect-square bg-white overflow-hidden border border-gray-100 shadow-sm">
+                        <img src="assets/backing-hook and loop.png" class="w-full h-full object-cover" alt="Industrial Hook & Loop backing for tactical patches">
+                    </div>
+                    <h4 class="font-black text-lg uppercase tracking-tight">Hook & Loop (Industrial Grade)</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">Commonly known by the brand name Velcro, this backing features high-density nylon hooks and soft loops designed for over 5,000 detach cycles. We perimeter-stitch the Hook & Loop directly to the emblem base to prevent delamination. **Best For:** Tactical vests, modular backpacks, and military uniforms.</p>
+                </div>
+                <!-- Iron-On -->
+                <div class="space-y-6">
+                    <div class="aspect-square bg-white overflow-hidden border border-gray-100 shadow-sm">
+                        <img src="assets/backing-iron-on.png" class="w-full h-full object-cover" alt="Heat-seal iron-on backing for apparel">
+                    </div>
+                    <h4 class="font-black text-lg uppercase tracking-tight">Heat-Seal Iron-On</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">Coated with a high-melt-point polyethylene adhesive. Designed for professional apparel factory heat-press machines (150°C for 15 seconds). Our glue formula is specifically engineered to be laundry-safe and dry-clean compatible. **Best For:** Denim, heavy cotton hoodies, and beanies.</p>
+                </div>
+                <!-- Adhesive -->
+                <div class="space-y-6">
+                    <div class="aspect-square bg-white overflow-hidden border border-gray-100 shadow-sm">
+                        <img src="assets/backing-adhesive.png" class="w-full h-full object-cover" alt="Pressure sensitive adhesive backing for temporary patches">
+                    </div>
+                    <h4 class="font-black text-lg uppercase tracking-tight">Adhesive (Peel & Stick)</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">A pressure-sensitive temporary backing with a paper release liner. Ideal for short-term branding at corporate events, trade shows, and conferences. Note: This is not a permanent solution for washed garments. **Best For:** Promotional events and temporary gift branding.</p>
+                </div>
+                <!-- Plain/Sew-On -->
+                <div class="space-y-6">
+                    <div class="aspect-square bg-white overflow-hidden border border-gray-100 shadow-sm">
+                        <img src="assets/backing-plain.png" class="w-full h-full object-cover" alt="Plain sew-on backing for fashion">
+                    </div>
+                    <h4 class="font-black text-lg uppercase tracking-tight">Plain / Sew-On</h4>
+                    <p class="text-xs text-gray-500 leading-relaxed">The traditional factory choice. Features no adhesive layer, preserving the patch's natural flexibility and the garment's organic drape. Must be stitched permanently using a single-needle or Merrow machine. **Best For:** High-end fashion, light knitwear, and long-term uniform issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Comparison Table -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black uppercase italic text-center mb-16">B2B Backing Technical Comparison</h2>
+            <div class="overflow-x-auto max-w-4xl mx-auto shadow-2xl border border-gray-100">
+                <table class="w-full spec-table">
+                    <thead>
+                        <tr><th>Mounting Method</th><th>Adhesive Strength</th><th>Wash Cycle Life</th><th>Application Complexity</th></tr>
                     </thead>
-                    <tbody class="divide-y divide-gray-800">
-                        <tr><td class="py-6 px-6 italic">Iron-on</td><td class="py-6 px-6">High</td><td class="py-6 px-6 text-gray-500">Retail apparel, t-shirts</td></tr>
-                        <tr><td class="py-6 px-6 italic">Hook & Loop</td><td class="py-6 px-6">Ultra-High</td><td class="py-6 px-6 text-gray-500">Uniforms, Tactical Gear</td></tr>
-                        <tr><td class="py-6 px-6 italic">Sew-on</td><td class="py-6 px-6">Permanent</td><td class="py-6 px-6 text-gray-500">Luxury fashion, hats</td></tr>
+                    <tbody>
+                        <tr><td><strong>Hook & Loop</strong></td><td>Industrial High-Tensile</td><td>50+ Home Washes</td><td>Instant (Modular)</td></tr>
+                        <tr><td><strong>Iron-On</strong></td><td>Permanent Bond</td><td>30+ Commercial Washes</td><td>Heat-Press Required</td></tr>
+                        <tr><td><strong>Plain (Sew-On)</strong></td><td>Mechanical Stitched</td><td>Unlimited</td><td>Professional Sewing</td></tr>
+                        <tr><td><strong>Adhesive (Sticky)</strong></td><td>Temporary</td><td>N/A (Temporary)</td><td>Peel & Stick</td></tr>
+                        <tr><td><strong>Magnetic</strong></td><td>Lightweight Holding</td><td>N/A</td><td>Instant (Non-destructive)</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
 
-    <footer class="py-12 border-t border-gray-100 text-center font-bold">
-        <p class="text-[10px] text-gray-300 uppercase tracking-widest italic">© 2026 Chamguan Patch. Precision Manufacturing.</p>
+    <!-- Technical FAQ -->
+    <section class="py-24 bg-gray-50 border-t border-gray-100">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl font-black uppercase italic text-center mb-20">Wholesale Backing FAQ</h2>
+            <div class="space-y-12 text-xs">
+                <div class="border-b pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: Can Iron-On patches be applied to polyester or synthetic fabrics?</h5><p class="text-gray-500 leading-relaxed">A: Yes, but with caution. High-heat glues require 150°C, which can scorch certain synthetics. For sportswear brands, we recommend our specialized Low-Melt adhesive or traditional sewing to maintain the fabric's integrity.</p></div>
+                <div class="border-b pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: How do you prevent Hook & Loop patches from peeling at the corners?</h5><p class="text-gray-500 leading-relaxed">A: We solve this by using "Perimeter Reinforcement." Rather than just gluing the fastener to the patch, our factory sew-teams stitch the Hook & Loop around the entire boundary using high-tenacity thread, ensuring the edges remain flush under thousands of detachments.</p></div>
+                <div class="pb-8"><h5 class="font-black uppercase text-sm mb-4">Q: Do you offer backings that are safe for infants' and children's clothing?</h5><p class="text-gray-500 leading-relaxed">A: Absolutely. All our adhesives and backings are certified under OEKO-TEX Standard 100 Class I (safe for infants). They are free from phthalates, formaldehydes, and heavy metals, meeting all international B2B compliance requirements.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24 bg-black text-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl lg:text-7xl font-black italic uppercase tracking-tighter mb-8 tracking-tighter">Consult Our Engineering Team</h2>
+            <p class="text-gray-400 text-lg font-light max-w-2xl mx-auto mb-16 leading-relaxed italic">Talk directly with our technical team on WhatsApp for volume pricing and production audits. Bulk B2B only.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-8 items-center text-[10px] font-bold uppercase tracking-[0.2em]">
+                <a href="https://wa.me/8615876936035" class="bg-amber-600 text-black px-14 py-6 font-black hover:bg-amber-500 transition-all shadow-2xl">Start WhatsApp Consultation</a>
+                <a href="mailto:lydiamao0827@gmail.com" class="text-gray-400 hover:text-white transition-all underline underline-offset-8">Request Enterprise Supply Table</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-[#0c0d0a] text-center border-t border-neutral-900">
+        <p class="text-[9px] text-neutral-600 uppercase font-black tracking-widest italic">© 2026 Chamguan Patch. Premium B2B Manufacturer for Global Apparel Brands. Wholesale Only. 23 Years Experience.</p>
     </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/8615876936035?text=Hello%2C%20I%20have%20questions%20about%20industrial%20patch%20backing%20options." class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp mr-2 text-xl"></i> Instant Backing Quote
+    </a>
+
 </body>
 </html>
